@@ -16,7 +16,7 @@ environment {
     }
 
         stage("Build Maven"){
-                sh 'mvn clean package -DskipTests'
+                sh 'mvn clean package -DskipTests=True'
             
         }
 	
